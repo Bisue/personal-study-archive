@@ -154,7 +154,7 @@ console.log(window.myAPI)
 이러한 기능은 많이 사용되는 다음 두 가지 목적으로 사용될 때 매우 유용하다.
 
 - `ipcRenderer` 헬퍼를 `renderer` 프로세스에게 노출함으로써, `main` 프로세스에서 실행해야하는 기능을 수행해야 할 때 IPC(Inter-Process Communication) 요청을 가능하게 한다. (반대의 경우에도 마찬가지)
-- 원격 URL에서 호스팅되는 기존 웹 앱에 대한 Electron 래퍼를 개발하는 경우 웹 클라이언트 측의 데스크톱 전용 로직에 사용할 수 있는 렌더러의 창 전역에 사용자 정의 속성을 추가할 수 있습니다. (If you're developing an Electron wrapper for an existing web app hosted on a remote URL, you can add custom properties onto the renderer's window global that can be used for desktop-only logic on the web client's side.)
+- 원격 URL에서 호스팅되는 기존 웹 앱에 대한 Electron 래퍼를 개발하는 경우 웹 클라이언트 측의 데스크톱 전용 로직에 사용할 수 있는 렌더러의 창 전역에 사용자 정의 속성을 추가할 수 있습니다. `(If you're developing an Electron wrapper for an existing web app hosted on a remote URL, you can add custom properties onto the renderer's window global that can be used for desktop-only logic on the web client's side.)`
 
 &nbsp;
 
