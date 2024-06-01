@@ -4,7 +4,7 @@
 
 ##  목록
 
-- [x] [Electron](/docs/electron/)
+- [x] [Electron](/electron/docs)
 - [ ] gRPC
 - [ ] 레디스
   - [ ] 분산락
